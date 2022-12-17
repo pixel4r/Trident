@@ -15,8 +15,8 @@ plugins {
 apply plugin: 'org.spongepowered.mixin'
 
 
-group = 'net.minecraft'
-version = '1.0-SNAPSHOT'
+group = 'net.minecraft.trident'
+version = '1.0.2'
 
 java {
     archivesBaseName = 'Trident'
