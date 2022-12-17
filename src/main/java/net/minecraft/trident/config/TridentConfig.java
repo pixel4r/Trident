@@ -2,7 +2,10 @@ package net.minecraft.trident.config;
 
 import net.minecraft.trident.Trident;
 import net.minecraftforge.common.config.Config;
-import net.minecraftforge.common.config.Config.*;
+import net.minecraftforge.common.config.Config.LangKey;
+import net.minecraftforge.common.config.Config.Name;
+import net.minecraftforge.common.config.Config.RangeInt;
+import net.minecraftforge.common.config.Config.RequiresMcRestart;
 import net.minecraftforge.common.config.ConfigManager;
 import net.minecraftforge.fml.client.event.ConfigChangedEvent.OnConfigChangedEvent;
 import net.minecraftforge.fml.common.Mod;

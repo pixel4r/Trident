@@ -3,18 +3,17 @@
   "compatibilityLevel": "JAVA_8",
   "package": "net.minecraft.trident.mixin",
   "mixins": [
-    "MixinEntityLivingBase",
     "MixinEntityArrow",
-    "MixinEntityVillager",
-    "MixinItemTideTrident"
+    "MixinEntityLivingBase",
+    "MixinEntityVillager"
   ],
   "client": [
-    "MixinRenderItem",
     "MixinItemRenderer",
-    "MixinRenderPlayer",
-    "MixinRenderLivingBase",
     "MixinModelBiped",
     "MixinRenderEntityItem",
+    "MixinRenderItem",
+    "MixinRenderLivingBase",
+    "MixinRenderPlayer",
     "MixinTileEntityItemStackRenderer"
   ],
   "server": [],

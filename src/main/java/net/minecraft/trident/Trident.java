@@ -95,7 +95,7 @@ public class Trident {
     public static final Map<EntityLightningBolt, EntityPlayer> LIGHTNING_BOLTS = Maps.newHashMap();
 
     static {
-        TRIDENT = new ItemTrident().setRegistryName(MODID, "trident").setUnlocalizedName("minecraft.trident");
+        TRIDENT = new ItemTrident().setRegistryName(MODID, "trident").setTranslationKey("minecraft.trident");
     }
 
     @EventHandler
